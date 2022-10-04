@@ -3,7 +3,7 @@
 
 
 ```python
-#You can assign a multiline string to a variable by using three quotes
+#You can assign a multiline string to a variable by using three quotes :
 #You can use three double quotes or three single quotes
 
 a = """Lorem ipsum dolor sit amet,
@@ -14,14 +14,14 @@ print(a)
 ```
 
 ```python
-#Get the character at position 5 (remember that the first character has the position 0)
+#Get the character at position 5 (remember that the first character has the position 0) :
 
 a = "Hello, World!"
 print(a[5])
 ```
 
 ```python
-#Loop through the letters in the word "apple"
+#Loop through the letters in the word "apple" :
 
 for x in "apple":
   print(x)
@@ -33,7 +33,7 @@ for x in "apple":
 #e
 ```
 ```python
-#The len() function returns the length of a string
+#The len() function returns the length of a string :
 
 a = "Hello, World!"
 print(len(a))
@@ -41,7 +41,7 @@ print(len(a))
 #13
 ```
 ```python
-#Check if "free" is present in the following text 
+#Check if "free" is present in the following text :
 
 txt = "The best things in life are free!"
 print("free" in txt)
@@ -49,10 +49,19 @@ print("free" in txt)
 #True
 ```
 ```python
-#Print only if "free" is present
+#Print only if "free" is present :
 
 txt = "The best things in life are free!"
 if "free" in txt:
   print("Yes, 'free' is present.")
 
 #Yes, 'free' is present.
+```
+```python
+#Check if "expensive" is NOT present in the following text :
+
+txt = "The best things in life are free!"
+print("expensive" not in txt)
+
+#True
+```
