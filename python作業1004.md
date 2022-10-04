@@ -37,10 +37,22 @@ for x in "apple":
 
 a = "Hello, World!"
 print(len(a))
+
+#13
 ```
 ```python
 #Check if "free" is present in the following text 
 
 txt = "The best things in life are free!"
 print("free" in txt)
+
+#True
 ```
+```python
+#Print only if "free" is present
+
+txt = "The best things in life are free!"
+if "free" in txt:
+  print("Yes, 'free' is present.")
+
+#Yes, 'free' is present.
