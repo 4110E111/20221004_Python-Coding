@@ -28,9 +28,14 @@ for x in "apple":
 
 ```
 ```python
-#The len() function returns the length of a string : 13
+#The len() function returns the length of a string
 
 a = "Hello, World!"
 print(len(a))
 ```
+```python
+#Check if "free" is present in the following text 
 
+txt = "The best things in life are free!"
+print("free" in txt)
+```
