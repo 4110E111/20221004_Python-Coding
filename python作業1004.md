@@ -14,8 +14,23 @@ print(a)
 ```
 
 ```python
-#Get the character at position 1 (remember that the first character has the position 0)
+#Get the character at position 5 (remember that the first character has the position 0)
 
 a = "Hello, World!"
 print(a[5])
 ```
+
+```python
+#Loop through the letters in the word "apple"
+
+for x in "apple":
+  print(x)
+
+```
+```python
+#The len() function returns the length of a string : 13
+
+a = "Hello, World!"
+print(len(a))
+```
+
