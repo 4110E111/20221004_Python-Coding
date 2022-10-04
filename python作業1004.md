@@ -25,7 +25,12 @@ print(a[5])
 
 for x in "apple":
   print(x)
-
+  
+#a
+#p
+#p
+#l
+#e
 ```
 ```python
 #The len() function returns the length of a string
