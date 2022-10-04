@@ -10,7 +10,7 @@ ut labore et dolore magna aliqua."""
 print(a)
 ```
 
-##Get the character at position 1 (remember that the first character has the position 0):
+-#Get the character at position 1 (remember that the first character has the position 0):
 ```python
 a = "Hello, World!"
 print(a[5])
