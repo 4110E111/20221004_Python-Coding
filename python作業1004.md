@@ -74,6 +74,7 @@ if "expensive" not in txt:
   
 #No, 'expensive' is NOT present.
 ```
+# Python Lists [參考資料](https://www.w3schools.com/python/python_lists.asp)
 
 ```python
 #Create a List :
@@ -132,6 +133,9 @@ print(thislist)
 
 #['mango', 'banana', 'cherry']
 ```
+
+# Python Dictionaries [參考資料](https://www.w3schools.com/python/python_dictionaries.asp)
+
 ```python
 #Create and print a dictionary :
 
