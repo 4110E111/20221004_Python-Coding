@@ -65,3 +65,146 @@ print("expensive" not in txt)
 
 #True
 ```
+```python
+#print only if "expensive" is NOT present :
+
+txt = "The best things in life are free!"
+if "expensive" not in txt:
+  print("No, 'expensive' is NOT present.")
+  
+#No, 'expensive' is NOT present.
+```
+
+```python
+#Create a List :
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
+
+#['apple', 'banana', 'cherry']
+```
+```python
+#Lists allow duplicate values :
+
+thislist = ["apple", "banana", "cherry", "apple", "cherry"]
+
+print(thislist)
+
+#['apple', 'banana', 'cherry', 'apple', 'cherry']
+```
+```python
+#Print the number of items in the list :
+
+thislist = ["apple", "banana", "cherry"]
+print(len(thislist))
+
+#3
+```
+```python
+#String, int and boolean data types :
+
+list1 = ["apple", "banana", "cherry"]
+list2 = [1, 3, 7, 9, 5]
+list3 = [True, False, False]
+
+print(list1)
+print(list2)
+print(list3)
+
+#['apple', 'banana', 'cherry']
+#[1, 3, 7, 9, 5]
+#[True, False, False]
+```
+```python
+#What is the data type of a list?
+
+mylist = ["apple", "banana", "cherry"]
+
+print(type(mylist))
+
+#<class 'list'>
+```
+```python
+#Using the list() constructor to make a List :
+
+thislist = list(("mango", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+
+#['mango', 'banana', 'cherry']
+```
+```python
+#Create and print a dictionary :
+
+thisdict =	{
+  "epic": "Poop",
+  "human": "Hotdog",
+  "year": 1964
+}
+print(thisdict)
+
+#{'epic': 'Poop', 'human': 'Hotdog', 'year': 1964}
+```
+```python
+#Print the "human" value of the dictionary :
+
+thisdict = {
+  "human": "Poop",
+  "Food": "hotdog",
+  "year": 1987
+}
+print(thisdict["human"])
+
+#Poop
+```
+```python
+#Duplicate values will overwrite existing values :
+
+thisdict = {
+  "human": "poop",
+  "food": "hotdog",
+  "year": 1987,
+  "year": 2022
+}
+print(thisdict)
+
+#{'human': 'poop', 'food': 'hotdog', 'year': 2022}
+```
+```python
+#Print the number of items in the dictionary :
+
+thisdict = {
+  "human": "poop" ,
+  "Food": "hotdog",
+  "year": 1987,
+  "year": 2022
+}
+print(len(thisdict))
+
+#3
+```
+```python
+#String, int, boolean, and list data types :
+
+thisdict = {
+  "human": "poop",
+  "hotdog": False,
+  "year": 1987,
+  "colors": ["green", "purple", "brown"]
+}
+
+print(thisdict)
+
+#{'human': 'poop', 'hotdog': False, 'year': 1987, 'colors': ['green', 'purple', 'brown']}
+```
+```python
+#Print the data type of a dictionary :
+
+thisdict = {
+  "human": "poop",
+  "food": "hotdog",
+  "year": 1989
+}
+print(type(thisdict))
+
+#<class 'dict'>
+```
