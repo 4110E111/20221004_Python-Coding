@@ -10,3 +10,7 @@ ut labore et dolore magna aliqua."""
 print(a)
 
 ```
+```python
+a = "Hello, World!"
+print(a[5])
+```
